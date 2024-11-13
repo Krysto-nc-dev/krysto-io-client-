@@ -1,0 +1,26 @@
+{
+  "root_node" : {
+      "url": "http://192.168.1.6",
+      "port": 5001
+  },
+  "adminClientUrl" : "http://192.168.1.6:5003",
+  "websocketUrl" : "http://192.168.1.6:5002",
+  "domaineName" : "krup.nc",
+  "enableRegisterUser" : true,
+  "enableRegisterAdmin" : false,
+  
+  "mapTilesUrl2": "//stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+  "mapTilesUrl": "//tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png",
+  "mapTilesRoadUrl": "",
+  "mapMaxBounds" : [
+    [-18.268764039073968, 162.45385742187503],
+    [-23.268764039073968, 168.45385742187503]
+  ],
+  
+  "monyToEuro": 1000,
+
+  "captcha": {
+    "cryptokey" : "ydAORfAp5VWNLDfhsozxiqccWlahVasa",
+    "algorithm" : "aes-256-cbc"
+  }
+}
